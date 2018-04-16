@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dutchman" />
+        <module name="jack-sparrow" />
+        <module name="tia-dalma" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dutchman" target="9" />
+      <module name="jack-sparrow" target="9" />
+      <module name="tia-dalma" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
